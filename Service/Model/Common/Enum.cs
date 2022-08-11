@@ -28,6 +28,12 @@ namespace Service.Model.Common
         NOT_FOUND = -5
     }
 
+    public enum USER_ROLE 
+    { 
+        USER = 1,
+        ADMIN = 2
+    }
+
     public static class EnumExtensionMethod
     {
         public static string GetDescription(this Enum value, bool resource = false)
